@@ -1,0 +1,114 @@
+@charset "utf-8"
+
+body{
+	font-family: 'Raleway', sans-serif;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#menu {
+	background: mediumseagreen;
+	width: 100%;
+	height: 80px;
+	line-height: 80px;
+}
+
+#menu h1 {
+	float: left;
+}
+
+#menu h1 a {
+	text-decoration: none;
+	color: #004d00;
+	margin-left: 40px;
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+}
+
+#menu ul {
+	float: right;
+	font-size:26px;
+}
+
+#menu ul li {
+	text-decoration: none;
+	list-style-type: none;
+	display: inline-block;
+}
+
+#menu ul li a {
+	text-decoration: none;
+	color: #004d00;
+	padding: 25px;
+	font-family: 'Itim', cursive;
+}
+
+#menu ul li :hover{
+	background: #00bfff;
+	transition: all ease-in-out 0.4s;
+}
+
+#jelen{
+	background-color: #00bfff;
+}
+
+#vonal {
+	background-color: #00bfff;
+	height: 6px;
+}
+
+#hatter {
+	background: url(images/keret.jpg);
+	width: 100%;
+	height: 1080px;
+}
+
+
+#cim {
+	font-size: 100px;
+	padding-left: 15%;
+	padding-top: 10%;
+	color: red;
+	font-family: 'Goblin One', cursive;
+}
+
+p {
+	font-size: 36px;
+	color: black;
+	float: right;
+	margin-left: 100px;
+	margin-right: 500px;
+	margin-top: -800px;
+	background-color: mediumseagreen;
+}
+
+pre {
+	float: left;
+	margin-top: 300px;
+	color: red;
+	font-size: 50px;
+	font-family: 'Goblin One', cursive;
+}
+
+#kepek {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	margin-top: -26vh;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#keret {
+	width: 33%;
+	padding:30px;
+	padding-bottom: 0px;
+	position: relative;
+}
+
+#link {
+	text-decoration: none;
+}
